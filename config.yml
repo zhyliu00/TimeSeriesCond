@@ -1,0 +1,52 @@
+data:
+  har:
+    dataset_path: data/har
+    time_step: 128
+    num_classes: 6
+    channel: 9
+    aug_para:
+      jitter_scale_ratio : 0.1
+      jitter_ratio : 0.01
+      max_seg : 8
+  
+
+  sleep:
+    dataset_path: data/sleep
+    time_step: 3000
+    num_classes: 5
+    channel: 1
+    aug_para:
+      jitter_scale_ratio : 0.1
+      jitter_ratio : 1
+      max_seg : 12
+
+  fault_a:
+    dataset_path: data/fault_a
+    time_step: 5120
+    num_classes: 3
+    channel: 1
+    aug_para:
+      jitter_scale_ratio : 0.1
+      jitter_ratio : 0.1
+      max_seg : 12
+
+  insect:
+    dataset_path: data/insect
+    time_step: 600
+    num_classes: 10
+    channel: 1
+    aug_para:
+      jitter_scale_ratio : 0.1
+      jitter_ratio : 0.01
+      max_seg : 12
+
+  electric:
+    dataset_path: data/insect
+    time_step: 96
+    num_classes: 7
+    channel: 1
+    aug_para:
+      jitter_scale_ratio : 0.1
+      jitter_ratio : 0.1
+      max_seg : 12
+    

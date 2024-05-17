@@ -1,0 +1,1 @@
+Used to store the buffer of the gradient
