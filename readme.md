@@ -1,4 +1,6 @@
-# Time Series Dataset Condensation via Dual Domain Matching
+# Time Series Dataset Condensation via Dual Domain Matching [KDD2024]
+
+![Main Figure](./fig/main_fig.png)
 
 ## Data
 The data is in https://www.dropbox.com/scl/fi/izu5d5gto7q84tezc2pc1/TimeSeriesData.zip?rlkey=qeqd2qeyse6trlm1t6yf6bppu&dl=0
